@@ -1,0 +1,7 @@
+license.md
+setup.py
+pwgenerator/__init__.py
+pwgenerator.egg-info/PKG-INFO
+pwgenerator.egg-info/SOURCES.txt
+pwgenerator.egg-info/dependency_links.txt
+pwgenerator.egg-info/top_level.txt

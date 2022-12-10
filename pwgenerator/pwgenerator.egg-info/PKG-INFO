@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pwgenerator
+Version: 0.1
+Summary: Password generator with the desired number of characters
+Author: Noname
+Author-email: noname@xyz.com
+License-File: license.md
