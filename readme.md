@@ -25,7 +25,7 @@ import pwgenerator
 
 pwgenerator.generatepass(10)
 
-
+pwgenerator.CountChar("String")
 
 ## Contributing
 
