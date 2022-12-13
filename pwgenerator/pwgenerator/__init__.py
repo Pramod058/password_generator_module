@@ -13,3 +13,20 @@ def generate(number):
         return password
     except:
         return "Something went wrong"
+
+def CountChar(characters):
+    count = 0
+    final = []
+    only_value = []
+    for char in characters:
+        if char not in only_value:
+            only_value.append(char)
+
+    for i in only_value:
+        count = 0
+        for ch in characters:
+            if i == ch:
+                count+= 1
+        final.append({i : count})
+        
+    return final
