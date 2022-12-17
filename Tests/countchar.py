@@ -1,7 +1,9 @@
 import pwgenerator as pw
 
-Characters = input("Enter the characters: ")
+Characters = ["Char", "gngnaga", "agnajgagja", "aabbcc"]
 
-total_char = pw.CountChar(Characters)
 
-print(total_char)
+for chars in Characters:
+    total_char = pw.CountChar(chars)
+
+    print(total_char)
